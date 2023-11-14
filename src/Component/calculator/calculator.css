@@ -1,0 +1,130 @@
+.calcBa{
+    background-color:aliceblue;
+
+
+}
+.call{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 10px;
+    left:10px;
+    
+    box-shadow: 0 0 5px;
+    background: rgb(10,150,169);
+    background: linear-gradient(90deg, rgba(10,150,169,1) 0%, rgba(31,241,238,1) 0%, rgba(114,253,233,0.9192927170868347) 34%, rgba(102,229,225,1) 62%, rgba(12,184,238,1) 100%);border-radius: 40px;
+}
+.calc{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:aliceblue;
+    height: 150vh;
+    background-color: blueviolet;
+
+}
+.section{
+    background-color:rgb(207, 221, 221);
+    padding:5px;
+    
+    min-width:338px;
+    border-radius:5px;
+    border: 1px solid rgb(200, 198, 198);
+    text-align: right;
+    min-height: 73vh;
+    box-shadow: 0px 0px 7px;
+    
+}
+.display{
+
+   
+    padding: 2px;
+    background-color:rgb(207, 221, 221);
+    border: 1px;
+    border-radius: 5px;
+    height:200px;
+    max-width: 338px;
+    overflow: hidden;
+    
+    
+}
+
+.col{
+    min-width:50px;
+    min-height:60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    border: transparent;
+    margin: 2px;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+   
+    
+}
+.row{
+    display: flex;
+ 
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.heading{
+    display: grid;
+    text-align: start;
+    padding-left: 3px;
+
+}
+
+
+.head{
+    
+    font-size: small;
+    font-weight: bolder;
+    float:left;
+
+}
+.standered{
+
+    font-size: large;
+    font-weight: bold;
+    float:left;
+    margin-top: 10px;
+    height:20px;
+}
+.secondDisplay{
+    font-size: large;
+    font-weight: lighter;
+   
+    
+}
+.secondDisplay h6{
+    font-weight:normal;
+    height: 16px;
+}
+.firstDisaplay{
+    font-size: large;
+    font-weight: bolder;
+    height: 37px;
+
+  
+}
+.firstDisaplay:hover{
+border-color: black;
+border-width: 5px;
+}
+
+.background{
+    background-color: blueviolet;
+
+}
+

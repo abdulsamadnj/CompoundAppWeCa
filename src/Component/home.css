@@ -1,0 +1,29 @@
+.mainPage{
+   background-color: rgb(151, 242, 233);
+   height: 100vh;
+   width: 220vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+.cal{
+    border: 10px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 0%);
+    box-shadow: 0px 0px 7px;
+    font-style: italic;
+    height: 550px;
+    width: 550px;
+    margin-right: 25px;
+}
+.weather{
+    border: 10px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 0%);
+    box-shadow: 0px 0px 7px;
+    font-style: italic;
+    height: 550px;
+    width: 550px;
+}
